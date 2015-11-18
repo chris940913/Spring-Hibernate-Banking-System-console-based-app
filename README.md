@@ -10,9 +10,15 @@ Part1.
 Using Spring framework and Hibernate create a console-based application that has the following features:
 
 a. Employee login before any other functionality is available.(Employee accounts are hard-coded into the database)
+
 b. Create a customer
+
 c. Open a Savings account
+
 d. Make deposit into Savings account
+
 e. Make withdrawal from Savings account
+
 f. View balance of Savings account
+
 g. Employees should have the number of operations performedper session displayed above the menu. Operations include all of the above major use-cases except login.

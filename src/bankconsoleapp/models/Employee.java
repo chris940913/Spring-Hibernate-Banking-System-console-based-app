@@ -5,6 +5,7 @@
  */
 package bankconsoleapp.models;
 
+import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -19,7 +20,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name="EMPLOYEE")
-public class Employee {
+public class Employee implements Serializable {
     
     @Id
     @GeneratedValue

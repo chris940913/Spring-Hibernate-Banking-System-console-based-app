@@ -1,10 +1,10 @@
 # Spring Framework +hibernate using Netbean IDE.
 
-RMIT E-Commerce & Enterprise System Assignment 2.
+<b>RMIT E-Commerce & Enterprise System Assignment 2.</b>
 
-Instruction:
+<b>Instruction:
 The aim of this assignment is to develop a web application using Spring framework
-and JDBC/Hibernate.
+and JDBC/Hibernate. </b>
 
 Part1.
 Using Spring framework and Hibernate create a console-based application that has the following features:

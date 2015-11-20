@@ -5,11 +5,11 @@
         <group>
             <file>file:/C:/Users/chris940913/Documents/NetBeansProjects/BankConsoleApp/src/bankconsoleapp/repositories/EmployeeDao.java</file>
             <file>file:/C:/Users/chris940913/Documents/NetBeansProjects/BankConsoleApp/src/bankconsoleapp/hibernate.cfg.xml</file>
-            <file>file:/C:/Users/chris940913/Documents/NetBeansProjects/BankConsoleApp/src/bankconsoleapp/applicationContext.xml</file>
+            <file>file:/C:/Users/chris940913/Documents/NetBeansProjects/BankConsoleApp/src/bankconsoleapp/models/SavingAccount.java</file>
+            <file>file:/C:/Users/chris940913/Documents/NetBeansProjects/BankConsoleApp/src/bankconsoleapp/repositories/CustomerDao.java</file>
             <file>file:/C:/Users/chris940913/Documents/NetBeansProjects/BankConsoleApp/src/bankconsoleapp/console/Main.java</file>
             <file>file:/C:/Users/chris940913/Documents/NetBeansProjects/BankConsoleApp/src/bankconsoleapp/models/Employee.java</file>
-            <file>file:/C:/Users/chris940913/Documents/NetBeansProjects/BankConsoleApp/src/bankconsoleapp/services/EmployeeService.java</file>
-            <file>file:/C:/Users/chris940913/Documents/NetBeansProjects/BankConsoleApp/src/META-INF/persistence.xml</file>
+            <file>file:/C:/Users/chris940913/Documents/NetBeansProjects/BankConsoleApp/src/bankconsoleapp/models/Customer.java</file>
         </group>
     </open-files>
 </project-private>

@@ -22,3 +22,5 @@ e. Make withdrawal from Savings account
 f. View balance of Savings account
 
 g. Employees should have the number of operations performedper session displayed above the menu. Operations include all of the above major use-cases except login.
+
+PLS ADD THE 7 JAR FILE TO LIBRARY MANUALLY, AND EXECUTE BANK.SQL MANUALLY TO CREATE THE DATABASE.

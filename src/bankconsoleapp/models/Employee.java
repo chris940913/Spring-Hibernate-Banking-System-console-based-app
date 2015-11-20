@@ -13,27 +13,26 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * ECES Assignment 2 
+ * ECES Assignment 2
  *
  * @author Chris Yap Fui Yang <s3466760@student.rmit.edu.au>
- * 
  */
 @Entity
-@Table(name="EMPLOYEE")
+@Table(name = "EMPLOYEE")
 public class Employee implements Serializable {
-    
+
     @Id
     @GeneratedValue
-    @Column(name ="E_ID")
+    @Column(name = "E_ID")
     private String eID;
-    
-    @Column(name="FIRST_NAME")
+
+    @Column(name = "FIRST_NAME")
     private String FN;
-    
-    @Column(name="LAST_NAME")
+
+    @Column(name = "LAST_NAME")
     private String LN;
-    
-    @Column(name="PASSWORD")
+
+    @Column(name = "PASSWORD")
     private String Password;
 
     public String geteID() {
@@ -67,5 +66,5 @@ public class Employee implements Serializable {
     public void setPassword(String Password) {
         this.Password = Password;
     }
-    
+
 }

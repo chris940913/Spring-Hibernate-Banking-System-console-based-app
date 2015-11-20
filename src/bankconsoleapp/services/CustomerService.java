@@ -5,25 +5,30 @@
  */
 package bankconsoleapp.services;
 
-import bankconsoleapp.models.Employee;
-import bankconsoleapp.repositories.EmployeeDao;
+import bankconsoleapp.models.Customer;
+import bankconsoleapp.repositories.CustomerDao;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * ECES Assignment 2
  *
- * @author Chris Yap Fui Yang <s3466760@student.rmit.edu.au>
+ * /**
+ *
+ * @author chris940913
  */
-@Service("EmployeeService")
-public class EmployeeService {
+@Service("CustomerService")
+public class CustomerService {
 
     @Autowired
-    private EmployeeDao empDao;
+    private CustomerDao cD;
 
-    public List<Employee> getAllEmp() {
-        return empDao.getAllEmp();
+    public void createCustomer(Customer c) {
+        cD.createCustomer(c);
+    }
+
+    public List<Customer> getAllCust() {
+        return cD.getAllCust();
     }
 
 }

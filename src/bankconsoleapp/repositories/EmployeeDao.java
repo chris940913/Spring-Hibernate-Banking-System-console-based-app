@@ -13,20 +13,21 @@ import javax.persistence.Query;
 import org.springframework.stereotype.Repository;
 
 /**
+ * ECES Assignment 2
  *
- * @author chris940913
+ * @author Chris Yap Fui Yang <s3466760@student.rmit.edu.au>
  */
 @Repository
 public class EmployeeDao {
-    
+
     @PersistenceContext
-      EntityManager em;
-    
-    public List <Employee>getAllEmp(){
-        
-        Query q= em.createQuery("FROM Employee");
+    EntityManager em;
+
+    public List<Employee> getAllEmp() {
+
+        Query q = em.createQuery("FROM Employee");
         List<Employee> emp = q.getResultList();
         return emp;
-        
+
     }
 }

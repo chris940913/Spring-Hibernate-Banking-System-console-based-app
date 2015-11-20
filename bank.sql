@@ -9,7 +9,7 @@ CREATE TABLE "APP"."EMPLOYEE"
 
 CREATE TABLE "APP"."CUSTOMER"
 (
-   C_ID INT PRIMARY KEY NOT NULL,
+   C_ID INTEGER default GENERATED_BY_DEFAULT not null primary key,
    DOB varchar(255),
    FIRST_NAME varchar(255),
    LAST_NAME varchar(255)
@@ -18,8 +18,8 @@ CREATE TABLE "APP"."CUSTOMER"
 
 CREATE TABLE "APP"."SAVINGACCOUNT"
 (
-   CUSTOMERID INT,
-   ACCNUM varchar(255),
+   CUSTOMERID INT not null,
+   ACCNUM varchar(255) not null,
    BALANCE INT
  
 );
